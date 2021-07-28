@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <title>Sem-5 TimeTable</title>
+</head>
+<style>
+    .main_content {
+        width: 90%;
+        margin: auto;
+        margin-top: 45px;
+        margin-bottom: 40px;
+        background: #ffffff;
+        box-shadow: 18px 18px 28px #a8a8a8, -18px -18px 28px #ffffff;
+        font-family: "DM Sans", sans-serif;
+
+        overflow: auto;
+    }
+
+    body {
+        background: url("/cool-background.png");
+        /* background: url(../images/background.svg); */
+    }
+
+    .hover a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .even {
+        background-color: #d4d0d09c;
+    }
+
+    .hover a:hover {
+        color: grey;
+
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.nitj.ac.in/">NIT-J</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.nitj.ac.in/nitj_files/links/Academic_Calendar_UG_PG__PhD_Jan_-June_2021_39473.pdf">Academic
+                            Calender</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Subjects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/mmm.html">CIMR</a></li>
+                            <li><a class="dropdown-item" href="/msmt.html">MRE</a></li>
+                            <li><a class="dropdown-item" href="/msm.html">TTP</a></li>
+                            <li><a class="dropdown-item" href="/ia.html">WSE</a></li>
+                            <li><a class="dropdown-item" href="/dme.html">QCA</a></li>
+                            <li><a class="dropdown-item" href="/ms.html">EDM</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    <div class="main_content">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Day/Time</th>
+                    <th scope="col">08:30-09:30</th>
+                    <th scope="col">09:30-10:30</th>
+                    <th scope="col">10:30-11:30</th>
+                    <th scope="col">11:30-12:30</th>
+                    <th scope="col">12:30-01:30</th>
+                    <th scope="col">01:30-03:30</th>
+                    <th scope="col">02:30-04:30</th>
+                    <th scope="col">03:30-05:30</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="even">
+                    <th scope="row" class="align-middle" rowspan="2">Monday</th>
+                    <td class="hover" class="align-middle" rowspan="2"><a class="align-middle"
+                            href="http://meet.google.com/hpk-jczn-rvg">TTP-AM</a></td>
+                    <td class="hover" class="align-text-bottom" rowspan="2"><a
+                            href="https://meet.google.com/lookup/ffscopm2nn?authuser=1&hs=179">EDM-SJSB </a></td>
+                    <td class="hover" class="align-middle" rowspan="2"><a
+                            href="https://meet.google.com/szz-xsxd-jrw">CIMR-NK</a></td>
+                    <td class="hover" class="align-middle" rowspan="2"><a
+                            href="https://meet.google.com/jvo-prsr-prx">WSE-LPS</a></td>
+                    <td class="hover" class="align-middle" rowspan="2"><b>Lunch</b></td>
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a
+                            href="http://meet.google.com/pwb-rrmt-jqi?authuser=2&hs=179">Mech Lab-<b>G1</b>-KKG</a>
+                    </td>
+
+                    <td class="hover" rowspan="2"><b>No Class</b></td>
+
+                </tr>
+                <tr class="even">
+
+                    <td class="hover"><a>QCA(T)-<b>G2</b>-AS</a></td>
+                    <td class="hover"><a>WSE(T)-<b>G2</b>-LPS</a></td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row" class="align-middle" rowspan="">Tuesday</th>
+                    <td class="hover" rowspan=""><a href="https://meet.google.com/jkr-eeso-xzi">QCA-AS</a></td>
+                    <td class="hover" rowspan=""><a href="http://meet.google.com/hpk-jczn-rvg">TTP-AM</a></td>
+                    <td rowspan=""><b>--</b></td>
+                    <td class="hover" rowspan=""><a href="https://meet.google.com/szz-xsxd-jrw">CIMR-NK</a></td>
+                    <td class="hover" rowspan=""><b>Lunch</b></td>
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a
+                            href="#">TTP(T)-<b>G2</b>-AM</a>
+                    </td>
+                    <td class="hover"><b>No Class</b></td>
+
+                </tr>
+                <tr class="even">
+                    <th scope="row" class="align-middle" rowspan="2">Wednesday</th>
+                    <td class="hover" rowspan="2"><a href="http://meet.google.com/zog-zdam-yni">MRE-DP</a></td>
+                    <td class="hover" rowspan="2"><a href="https://meet.google.com/jkr-eeso-xzi">QCA-AS</a></td>
+                    <td class="hover" rowspan="2"><a href="http://meet.google.com/hpk-jczn-rvg">TTP-AM</a></td>
+                    <td class="hover" rowspan="2"><a
+                            href="https://meet.google.com/lookup/ffscopm2nn?authuser=1&hs=179">EDM-SJSB</a></td>
+                    <td class="hover" rowspan="2"><b>Lunch</b></td>
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a
+                            href="http://meet.google.com/pwb-rrmt-jqi?authuser=2&hs=179">Mech Lab-<b>G2</b>-KKG</a>
+                    </td>
+
+                    <td class="hover" rowspan="2"><b>No Class</b></td>
+
+                </tr>
+                <tr class="even">
+
+                    <td class="hover"><a>WSE(T)-<b>G1</b>-LPS</a></td>
+                    <td class="hover"><a> QCA(T)-<b>G1</b>-AS</a></td>
+                <tr>
+                    <th scope="row" class="align-middle" rowspan="2">Thursday</th>
+                    <td class="hover" rowspan="2"> <a class="align-middle"
+                            href="https://meet.google.com/jvo-prsr-prx">WSE-LPS</a></td>
+                    <td class="hover" rowspan="2"><a href="http://meet.google.com/zog-zdam-yni">MRE-DP</a></td>
+                    <td class="hover" rowspan="2"><a href="https://meet.google.com/jkr-eeso-xzi">QCA-AS</a></td>
+                    <td rowspan="2"><b>--</b></td>
+                    <td class="hover" rowspan="2"><b>Lunch</b></td>
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a>WSE Lab-<b>G2</b>-AM</a>
+                    </td>
+
+                    <td class="hover" rowspan="2"><b>No Class</b></td>
+
+                </tr>
+                <tr>
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a>CIMR Lab-<b>G1</b>-NK</a>
+                    </td>
+                </tr>
+                <tr class="even">
+                    <th scope="row" class="align-middle" rowspan="2">Friday</th>
+                    <td class="hover" rowspan="2"> <a href="https://meet.google.com/szz-xsxd-jrw">CIMR-NK</a></td>
+                    <td class="hover" rowspan="2"><a href="https://meet.google.com/jvo-prsr-prx">WSE-LPS</a></td>
+                    <td class="hover" rowspan="2"><a href="http://meet.google.com/zog-zdam-yni">MRE-DP</a></td>
+                    <td class="hover" rowspan="2"><a
+                            href="https://meet.google.com/lookup/ffscopm2nn?authuser=1&hs=179">EDM-SJSB</a></td>
+                    <td class="hover" rowspan="2"><b>Lunch</b></td>
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a>WSE Lab-<b>G2</b>-AM</a>
+                    </td>
+
+                    <td class="hover" rowspan="2"><b>No Class</b></td>
+
+                </tr>
+                <tr class="even">
+                    <td class="hover" rowspan="1" colspan="2" style="text-align: center;"><a>CIMR Lab-<b>G1</b>-NK</a>
+                    </td>
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+    </div>
+    <footer class="footer ">
+        <div class="container">
+            <span class="text-muted">©2021 by Shivanshu Singh</span>
+        </div>
+    </footer>
+    <!-- <footer>
+
+    <div class="container">
+        <span class="text-muted">©2021 by Shivanshu Singh and Uttam Kumar sharma </span>
+    </div>
+</footer>-->
+</body>
+
+</html>
